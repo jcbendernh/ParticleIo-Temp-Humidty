@@ -152,7 +152,7 @@ void loop()
     float ftemp = ctemp * 1.8 + 32;
     
     
-// Round the Tempature down to the nearest whole number 
+// Round the Farenheit Tempature down to the nearest whole number 
 // and subtract 5 degrees as sensors sometimes run hot
 
     int wholeTempF = floor((ftemp + .5)-5); 
